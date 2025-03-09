@@ -23,6 +23,6 @@ namespace MyApp
             Console.WriteLine(" ]");
         }
         static bool IsOdd(int num) => num % 2 == 1;
-        static bool IsEven(int num) => num % 2 == 0;
+        static bool IsEven(int num) => !IsOdd(num);
     }
 }
